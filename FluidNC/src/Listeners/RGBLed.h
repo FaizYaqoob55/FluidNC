@@ -78,7 +78,7 @@ namespace Listeners {
         }
 
     public:
-        RGBLed();
+        RGBLed(const char* name);
 
         virtual void group(Configuration::HandlerBase& handler) override {
             handler.item("pin", pin_);

@@ -6,6 +6,7 @@
 
 #include "Config.h"
 #include "Cartesian.h"
+#include "Polar.h"
 
 namespace Kinematics {
     const char* no_system = "No kinematic system";
